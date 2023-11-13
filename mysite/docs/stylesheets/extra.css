@@ -1,0 +1,11 @@
+/*JetBrains Mono */
+@import url('https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css');
+/* Noraml version */
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css');
+/* Screen version */
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css');
+
+:root {
+    --md-text-font: "LXGW WenKai Screen";
+    --md-code-font: "JetBrains Mono";
+}

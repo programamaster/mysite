@@ -1,6 +1,7 @@
 site_name: My Docs
 theme:
   name: material
+  language: zh
   palette:
     - scheme: default
       primary: indigo
@@ -16,6 +17,7 @@ theme:
         name: Switch to light mode
   features:
     - content.code.copy
+  
 
 # Markdown extensions
 markdown_extensions:
@@ -55,3 +57,9 @@ nav:
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
+  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css
+  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-webfont@1.0.0/style.css
+  # - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
