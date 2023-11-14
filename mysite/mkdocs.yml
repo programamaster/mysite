@@ -1,7 +1,7 @@
 site_name: My Docs
 theme:
   name: material
-  language: zh
+  language: zh # 语言设置为中文
   palette:
     - scheme: default
       primary: indigo
@@ -16,9 +16,13 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - content.code.copy
-  
-
+    - content.code.copy # 代码块复制按键
+    - navigation.top # 有回到页面最上方top的按键
+    - navigation.expand # 目录自动展开子目录
+    - toc.follow # 右侧toc随着页面滑动自动滑动
+    - navigation.tabs # 一级目录融合至顶栏，并且只展示二级目录
+    - navigation.tracking # 在翻到页面对应的标题处时，会将地址栏的地址更新成标题处的链接
+    - navigation.instant
 # Markdown extensions
 markdown_extensions:
   - admonition
