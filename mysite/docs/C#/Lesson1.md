@@ -24,4 +24,3 @@ print(Application.streamingAssetsPath);
 - 移动平台只读，PC平台可读可写
 - 可以放入一些需要自定义动态加载的初始资源
 
-n你好漂亮 霞鹜文楷
