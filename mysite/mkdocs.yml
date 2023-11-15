@@ -58,6 +58,9 @@ nav:
     - 'about.md'
     - 特殊文件夹: 'Unity/特殊文件夹.md'
     - Resources资源动态加载: 'Unity/Resources资源动态加载.md'
+    - Unity Q&A: 'Unity/Unity Q&A.md'
+    - Transform扩展方法: 'Unity/Transform扩展方法.md'
+    - Transform坐标转换: 'Unity/Transform坐标转换.md'
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
