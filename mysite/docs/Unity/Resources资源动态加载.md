@@ -98,6 +98,7 @@ IEnumerator Load2()
         print(rq.progress);
         yield return null;
     }
+    yield return rq;
     tex = rq.asset as Texture;
     print(Time.frameCount);
 }
@@ -105,4 +106,4 @@ IEnumerator Load2()
 ### 总结
 事件监听异步加载：写法简单，但只能在资源加载结束后进行处理，一般用于单一资源加载。  
 
-协程异步加载：写法稍微麻烦，但可以多个资源配合加载且同时处理，一般用于进度条更新。
+协程异步加载：写法稍微麻烦，并且可以处理没有加载完成的逻辑，还可以多个资源配合加载且同时处理，一般用于进度条更新。

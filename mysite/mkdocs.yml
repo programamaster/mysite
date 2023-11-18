@@ -61,6 +61,7 @@ nav:
     - Unity Q&A: 'Unity/Unity Q&A.md'
     - Transform扩展方法: 'Unity/Transform扩展方法.md'
     - Transform坐标转换: 'Unity/Transform坐标转换.md'
+    - Unity协程(Coroutine): 'Unity/Unity协程(Coroutine).md'
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
