@@ -23,6 +23,7 @@ theme:
     - navigation.tabs # 一级目录融合至顶栏，并且只展示二级目录
     - navigation.tracking # 在翻到页面对应的标题处时，会将地址栏的地址更新成标题处的链接
     - navigation.instant
+  custom_dir: overrides
 # Markdown extensions
 markdown_extensions:
   - admonition
