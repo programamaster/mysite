@@ -107,3 +107,30 @@ IEnumerator Load2()
 事件监听异步加载：写法简单，但只能在资源加载结束后进行处理，一般用于单一资源加载。  
 
 协程异步加载：写法稍微麻烦，并且可以处理没有加载完成的逻辑，还可以多个资源配合加载且同时处理，一般用于进度条更新。
+
+## 资源卸载
+### 卸载指定的资源
+``` C#
+void Update()
+{
+    if(Input.GetKeyDown(KeyCode.Alpha1))
+    {
+        print("加载资源");
+        tex = Resources.Load<Texture>("Tex/TestJPG");
+    }
+    if(Input.GetKeyDown(KeyCode.Alpha2))
+    {
+        print("卸载资源");
+        Resources.UnloadAsset(tex);
+        tex = null;
+    }
+}
+```
+可以通过Profiler的Memory查看到内存却是却是根据Load和UnLoadAsset的调用实施变化的。也可以验证多次Load同一资源，内存大小不变。  
+Tip：该方法不能释放GameObject对象，因为它会用于实例化对象。它只能用于一些不需要实例化的内容，比如图片和音效、文本等等，一般情况下我们很少单独使用它。即使是没有实例化的GameObject对象也不能进行卸载。
+### 卸载未使用的资源
+卸载未使用资源 一般过场景时配合GC使用
+``` C#
+Resources.UnloadUnusedAssets();
+GC.Collect();
+```
