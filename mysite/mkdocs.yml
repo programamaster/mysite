@@ -68,6 +68,7 @@ nav:
     - Unity协程(Coroutine): 'Unity/Unity协程(Coroutine).md'
     - Input鼠标键盘输入: 'Unity/Input鼠标键盘输入.md'
     - 屏幕相关Screen: 'Unity/屏幕相关Screen.md'
+    - Camera: 'Unity/Camera.md'
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
