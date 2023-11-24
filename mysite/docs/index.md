@@ -20,3 +20,6 @@ $$
   a^2+b=c
 $$
 
+## 做为技术人员为什么要写博客
+[做为技术人员为什么要写博客](https://www.cnblogs.com/zery/p/3343893.html)  
+[魅力 .NET：从 Mono、.NET Core 说起 ](https://www.cnblogs.com/xishuai/p/mono-dotnetcore.html)
