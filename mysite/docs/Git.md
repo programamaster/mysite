@@ -7,5 +7,5 @@
 
 [用21张图，把Git 工作原理彻底说清楚](https://cloud.tencent.com/developer/article/1893386)
 
-[在 PowerShell 中使用 Git](https://git-scm.com/book/zh/v2/%E9%99%84%E5%BD%95-A%3A-%E5%9C%A8%E5%85%B6%E5%AE%83%E7%8E%AF%E5%A2%83%E4%B8%AD%E4%BD%BF%E7%94%A8-Git-Git-%E5%9C%A8-PowerShell-%E4%B8%AD%E4%BD%BF%E7%94%A8-Git)  
+ 
 ## 
