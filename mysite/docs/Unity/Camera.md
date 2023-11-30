@@ -1,6 +1,6 @@
 ## Camera参数说明
-![摄像机参数说明](../Image/摄像机参数说明图/摄像机参数说明.png){ loading=lazy }
-![摄像机参数说明2](../Image/摄像机参数说明图/摄像机参数说明2.png){ loading=lazy }
+![摄像机参数说明](../Image/Unity/摄像机参数说明图/摄像机参数说明.png){ loading=lazy }
+![摄像机参数说明2](../Image/Unity/摄像机参数说明图/摄像机参数说明2.png){ loading=lazy }
 
 ## Camera代码相关
 ### 重要静态成员
@@ -73,7 +73,7 @@ print(Camera.main.WorldToScreenPoint(this.transform.position));
 ``` C#
 void Update()
 {
-    if( Input.GetMouseButtonDown(0) )
+    if( Input.GetMouseButtonDown(0))
     {
         GameObject obj = GameObject.CreatePrimitive(PrimitiveType.Cube);
         Vector3 v = Input.mousePosition;

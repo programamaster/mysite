@@ -1,4 +1,4 @@
-# Screen
+# 屏幕相关(Screen)
 ## 静态属性
 ### 常用方法
 当前屏幕分辨率
@@ -45,7 +45,7 @@ Screen.autorotateToPortrait = true;
 //允许自动旋转到纵向倒着看 Home键在上
 Screen.autorotateToPortraitUpsideDown = true;
 ```
-![手机屏幕示意图](../Image/Screen_phone.png){ loading=lazy }
+![手机屏幕示意图](../Image/Unity/屏幕相关Screen/Screen_phone.png){ loading=lazy }
 
 指定屏幕的显示方向
 ``` C#

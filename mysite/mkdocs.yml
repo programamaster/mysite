@@ -66,11 +66,14 @@ nav:
     - Transform扩展方法: 'Unity/Transform扩展方法.md'
     - Transform坐标转换: 'Unity/Transform坐标转换.md'
     - Unity协程(Coroutine): 'Unity/Unity协程(Coroutine).md'
-    - Input鼠标键盘输入: 'Unity/Input鼠标键盘输入.md'
-    - 屏幕相关Screen: 'Unity/屏幕相关Screen.md'
-    - Camera: 'Unity/Camera.md'
+    - 鼠标键盘输入(Input): 'Unity/Input鼠标键盘输入.md'
+    - 屏幕相关(Screen): 'Unity/屏幕相关Screen.md'
+    - 相机(Camera): 'Unity/Camera.md'
+    - 光源系统(Light): 'Unity/光源系统.md'
+    - 物理系统之碰撞检测: 'Unity/物理系统之碰撞检测.md'
   - Terminal: 
     - PowerShell: 'Terminal/PowerShell.md'
+  - Git: 'Git.md'
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
