@@ -26,6 +26,16 @@ theme:
   custom_dir: overrides
 # Markdown extensions
 markdown_extensions:
+  - abbr # 可以展示缩写
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - attr_list
+  - pymdownx.highlight: #代码高亮
+      use_pygments: true
+      anchor_linenums: true
+      line_spans: __span
+  - pymdownx.superfences 
   - admonition
   - codehilite:
       guess_lang: false
@@ -49,11 +59,12 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences
+  - pymdownx.tabbed: 
+      alternate_style: true
   - pymdownx.tasklist
   - pymdownx.tilde
   - pymdownx.keys
-  - attr_list
-  - md_in_html
+  - md_in_html #允许在HTML内部编写Markdown
 
 
 nav:
